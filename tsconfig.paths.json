@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@config": [
+                "./config/index.ts"
+            ],
+            "@assets/*": [
+                "./assets/*"
+            ],
+            "@useCases/*": [
+                "./app/application/use_cases/*"
+            ],
+            "@data/*": [
+                "./app/application/data/*"
+            ],
+            "@contracts/*": [
+                "./app/application/contracts/*"
+            ],
+            "@shared/*": [
+                "./app/infrastructure/shared/*"
+            ],
+            "@ui/*": [
+                "./app/infrastructure/ui/*"
+            ],
+            "@externalApi/*": [
+                "./app/infrastructure/externalApi/*"
+            ],
+            "@domain/*": [
+                "./app/domain/*"
+            ],
+        }
+    }
+}
