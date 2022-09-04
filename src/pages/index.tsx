@@ -1,8 +1,11 @@
+import { Nav } from "@ui/components/Nav";
 
 export const Index = () => {
     return (
-        <div>hola mundo
-            
+        <div>
+            <Nav />
+
+            <h1>hola mundo</h1>
         </div>
     )
 }
