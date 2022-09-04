@@ -1,6 +1,6 @@
 // src/routes.tsx
 
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import { Routes as Switch, Route } from 'react-router-dom'
 
 const PRESERVED: any = import.meta.globEager('/src/pages/(_app|404).tsx')

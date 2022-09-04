@@ -1,7 +1,9 @@
 
 export const Index = () => {
     return (
-        <div>hola mundo</div>
+        <div>hola mundo
+            
+        </div>
     )
 }
 
