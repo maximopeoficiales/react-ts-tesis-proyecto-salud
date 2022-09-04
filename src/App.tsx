@@ -1,3 +1,5 @@
+import FormPaciente from "@ui/components/FormPaciente"
+import Formulario from "@ui/components/Formulario"
 import { Nav } from "@ui/components/Nav"
 
 export const App = () => {
@@ -5,8 +7,7 @@ export const App = () => {
   return (
     <div className="App">
       <Nav/> 
-      <h1>Hola</h1>
-
+      <FormPaciente/> 
     </div>
   )
 }
