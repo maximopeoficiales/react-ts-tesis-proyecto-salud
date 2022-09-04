@@ -1,14 +1,14 @@
 import "./ImageIcon.css";
 interface MyProps {
-    status?: 'online' | 'offline'
+    online?: boolean;
 }
-const ImageIcon = ({ status = 'offline' }: MyProps) => {
-    const isOnline = status === 'online';
+const ImageIcon = ({ online = false }: MyProps) => {
+    
 
     return (
-        <div data-testid="ButtonEmoticon" className={`h-16 w-16 bg-black rounded-full border-2 relative ${isOnline ? "border-emerald-500" : ""}`}>
-            <div className={`image-icon ${isOnline ? "bg-emerald-500" : ""}`}>
-                {isOnline && <span className="uppercase">{status}</span>}
+        <div data-testid="ButtonEmoticon" className={`h-16 w-16 bg-black rounded-full border-2 relative ${online ? "border-emerald-500" : ""}`}>
+            <div className={`image-icon ${online ? "bg-emerald-500" : ""}`}>
+                {online && <span className="uppercase">online</span>}
             </div>
         </div>
     )
