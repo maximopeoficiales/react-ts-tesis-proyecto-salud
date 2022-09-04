@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app-react:
+    container_name: react-proyect-salud-v2
+    build: .
+    command: yarn start
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
