@@ -13,6 +13,16 @@
             "withStory": false,
             "withLazy": false,
             "withStyle": false
+        },
+        "button": {
+            "customTemplates": {
+                "component": "src/templates/TemplateName.tsx"
+            },
+            "path": "src/app/infrastructure/ui/components/Buttons",
+            "withTest": false,
+            "withStory": false,
+            "withLazy": false,
+            "withStyle": false
         }
     }
 }

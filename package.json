@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "gc": "npx generate-react-cli component",
-    "gp": "npx generate-react-cli component --type=page"
+    "gb": "npx generate-react-cli component --type=button"
   },
   "dependencies": {
     "flowbite": "^1.5.3",
