@@ -1,0 +1,20 @@
+.image-icon {
+    color: rgba(255, 255, 255, 1.0);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    position: absolute;
+    /* background: linear-gradient(131.17deg, #FF1764 0%, #ED3495 94.15%); */
+    height: 15px;
+    line-height: 15px;
+    padding: 0 4px;
+    bottom: -2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    word-break: keep-all;
+    border-radius: 2px;
+    z-index: 1;
+}

@@ -34,6 +34,11 @@ export const Nav = () => {
                         NotFound
                     </Navbar.Link>
                 </Link>
+                <Link to="/test">
+                    <Navbar.Link>
+                        Test
+                    </Navbar.Link>
+                </Link>
 
             </Navbar.Collapse>
         </Navbar>
