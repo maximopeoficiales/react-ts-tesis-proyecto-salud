@@ -1,10 +1,12 @@
+import FormPaciente from "./FormPaciente"
+
 const Formulario = () => {
   return (
     <div className=' h-screen'>
       <div className="bg-sky-500/20 pb-20">
         <h2 className='font-black text-3xl text-center pt-14 pb-10'>REGISTRATE</h2>
         <form className='md:shadow-2xl md:px-10 mx-5 md:mx-40 md:py-10'>
-            <div className="md:grid grid-cols-2 gap-x-14">
+          <div className="md:grid grid-cols-2 gap-x-14">
               <div className="mb-5">
                 <label htmlFor='name' className='block text-gray-700 uppercase font-bold' >Nombre:</label>
                 <input id="name" className='border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md' type="text" placeholder='Ingrese su Nombre'/>
