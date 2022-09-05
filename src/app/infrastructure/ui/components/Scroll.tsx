@@ -32,7 +32,7 @@ const Scroll = () => {
 
       <div>
         <div className=" bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 contenedor-image">
-            <div className="contenedor-imagen border-solid border-4 border-white ">
+            <div className="contenedor-imagehttps://meet.google.com/_meet/mxp-zqza-ayc?ijlm=1662337122696&adhoc=1&hs=187n border-solid border-4 border-white ">
               <img
                 className="rounded-full"
                 alt="img" src=""
