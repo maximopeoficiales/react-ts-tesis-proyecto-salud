@@ -1,9 +1,11 @@
 import ButtonEmoticon from "@ui/components/Buttons/ButtonEmoticon/ButtonEmoticon";
 import NavMobile from "@ui/components/Nav/NavMobile/NavMobile";
+import AccountSimple from "@ui/components/Profile/AccountSimple/AccountSimple";
 import ContainerPlayer from "@ui/components/Profile/ContainerPlayer/ContainerPlayer";
 import ImageIcon from "@ui/components/Profile/ImageIcon/ImageIcon";
 import ModalImageIcon from "@ui/components/Profile/ModalImageIcon/ModalImageIcon";
-
+import TrendTag from "@ui/components/Ramdom/TrendTag";
+import { faMusic } from '@fortawesome/free-solid-svg-icons'
 
 interface MyProps {
 }
@@ -18,8 +20,17 @@ const TestIndex = ({ }: MyProps) => {
             <div className=" p-4 flex justify-center items-center">
                 <div className="p-2 h-24 w-24 bg-black rounded-full">
                     <ButtonEmoticon white />
-
                 </div>
+            </div>
+            <div className="p-4 justify-center items-center flex flex-col  gap-2 ">
+                <TrendTag />
+                <TrendTag icon={faMusic} text="Soda Stereo" />
+                <TrendTag />
+                <TrendTag />
+                <TrendTag />
+            </div>
+            <div className="p-4 flex justify-center">
+                <AccountSimple />
             </div>
             <div className="p-4 flex justify-center">
                 <ModalImageIcon />
