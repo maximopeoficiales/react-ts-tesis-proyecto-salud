@@ -25,9 +25,9 @@ const TestIndex = ({ }: MyProps) => {
             <div className="p-4 justify-center items-center flex flex-col  gap-2 ">
                 <TrendTag />
                 <TrendTag icon={faMusic} text="Soda Stereo" />
-                <TrendTag />
-                <TrendTag />
-                <TrendTag />
+            </div>
+            <div className="p-4 flex justify-center">
+                <AccountSimple online isVerified/>
             </div>
             <div className="p-4 flex justify-center">
                 <AccountSimple />
